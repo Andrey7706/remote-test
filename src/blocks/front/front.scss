@@ -1,0 +1,35 @@
+.front {
+  max-width: 1920px;
+  height: 830px;
+  background: url("../img/front__bg.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+
+  .front-bg {
+    max-width: 1920px;
+    height: 830px;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Пример медиа-запроса. Подробнее здесь: https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints */
+
+  @include media-breakpoint-down(md) {
+//    min-height: 0;
+  }
+  
+  &__content {
+    text-align: center;
+  }
+  
+  &__dscr {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

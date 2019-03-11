@@ -1,0 +1,23 @@
+.input {
+  height: 40px;
+  max-width: 426px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 9px 15px 11px;
+
+  &--textarea {
+    height: 150px;
+  }
+
+  @include placeholder(#e0e0e0);
+}

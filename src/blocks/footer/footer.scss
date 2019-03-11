@@ -1,0 +1,35 @@
+.footer {
+  border-top: 1px solid #E0E0E0;
+  margin-top: 149px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  &__content {
+    
+  }
+  
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+  }
+  
+  &__sitemap {
+    
+  }
+  
+  &__link {
+    display: inline-block;
+    color: #000000;
+    margin-right: 30px;
+    margin-top: 34px;
+
+    &:hover {
+      text-decoration: underline;
+      color: #000000;
+    }
+  }
+  
+  &__copyright {
+    color: #828282;
+  }
+}
